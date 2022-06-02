@@ -21,3 +21,11 @@ ggplot(df_shufol, aes(x = x, y = y)) +
   geom_point()
 ```
 
+
+```{r}
+a <- 2
+b <- 3
+a +b
+```
+
+
