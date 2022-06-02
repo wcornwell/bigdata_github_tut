@@ -1,6 +1,6 @@
 ---
 title: "shufol.Rmd"
-author: "Shufol Md Badiul Alam"
+author: "Badiul Alam Shufol"
 date: '2022-06-02'
 output: html_document
 ---
