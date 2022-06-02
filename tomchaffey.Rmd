@@ -1,0 +1,9 @@
+```{r}
+library(ggplot2)
+
+df <- data.frame(x=rnorm(100),y=rnorm(100))
+ggplot(df, aes(x=x,y=y))+geom_point() +
+  stat_smooth(method = lm, formula = y~x, se=FALSE) +
+  theme_classic()
+```
+
