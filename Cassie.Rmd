@@ -1,0 +1,22 @@
+---
+title: "Cassie_BEES3041_intro_tutorial"
+author: "Cassie"
+output: html_notebook
+---
+
+```{r}
+## Load packages
+
+library(ggplot2)
+
+```
+
+
+```{r}
+# Producing a scatterplot
+df <- data.frame(x = rnorm(100), y = rnorm(100))
+ggplot(df, aes(x = x, y = y)) + geom_point()
+
+```
+
+

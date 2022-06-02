@@ -1,0 +1,23 @@
+---
+title: "shufol.Rmd"
+author: "Shufol Md Badiul Alam"
+date: '2022-06-02'
+output: html_document
+---
+
+
+## Install and calling the package
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+## Defining a data frame and making a scatterplot
+
+```{r}
+df_shufol <- data.frame(x = rnorm(100), y = rnorm(500))
+
+ggplot(df_shufol, aes(x = x, y = y)) +
+  geom_point()
+```
+
