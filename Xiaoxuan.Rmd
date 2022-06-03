@@ -1,0 +1,20 @@
+---
+title: "Xiaoxuan.Rmd"
+author: "Xiaoxuan Jiang"
+date: '2022-06-02'
+output: html_document
+---
+
+
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+```{r}
+df <- data.frame(x=rnorm(100),y=rnorm(100))
+
+ggplot(df, aes(x=x,y=y))+geom_point()
+```
+
+
